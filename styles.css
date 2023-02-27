@@ -1,0 +1,58 @@
+.sample {
+    color:black;
+}
+li::before {
+    content: " - ";
+}
+li {
+    list-style-type: none;
+}
+.container {
+    margin: 25px;
+}
+hr {
+    margin: 0px;
+    margin-top: 4px;
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #1c4587;
+}
+h1 {
+    margin: 0px;
+    font-size: 45px;
+}
+h3 {
+    margin: 0px;
+    margin-top: 15px;
+}
+.skills {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 12%;
+}
+.skill {
+    margin: 5px 12px;
+}
+.heading {
+    color: #1c4587;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+.contact p {
+    margin: 6px 0;
+}
+.nameContainer {
+    display:flex;
+    align-items: flex-end;
+}
